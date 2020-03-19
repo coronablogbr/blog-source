@@ -1,0 +1,9 @@
+version: '3'
+services:
+  jekyll:
+    image: coronablogbr/devenv
+    build: .
+    volumes:
+      - ./:/blog
+    tty: true
+    command: octopod build
