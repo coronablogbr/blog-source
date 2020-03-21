@@ -4,6 +4,10 @@ Esse repositório contém o código fonte do blog publicado em https://coronablo
 
 O blog usa a ferramenta [jekyll-octopod](https://jekyll-octopod.github.io/) :heart:.
 
+# Propósito
+
+Salvar o máximo de vidas durante a pandemia, através da concientização e disseminação de informações.
+
 # Contribua
 
 ## Publique o seu podcast no nosso feed
