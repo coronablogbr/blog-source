@@ -1,5 +1,9 @@
 # Corona Virus (Covid-19) Brasil - Blog e Podcast
 
+Esse repositório contém o código fonte do blog publicado em https://coronablogbr.github.io/.
+
+O blog usa a ferramenta [jekyll-octopod](https://jekyll-octopod.github.io/) :heart:.
+
 # Contribua
 
 ## Publique o seu podcast no nosso feed
