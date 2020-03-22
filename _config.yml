@@ -84,4 +84,14 @@ keep_files:
   - .git
 
 exclude:
+  # Documentação >>>
   - docs
+  - README.md
+  # <<<
+
+  # Arquivos de ambiente de desenvolvimento e operações >>>
+  - Dockerfile
+  - docker*
+  - Gemfile*
+  - build-with-docker.sh
+  # <<<
