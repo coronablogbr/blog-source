@@ -10,7 +10,7 @@ permalink: quem-somos
 
 Doutor em Física pela Universidade Federal do Rio Grande do Sul.  
 
-Realizou pós-doutorado na área das _Ciências da Saúde_ nas seguintes instituições:
+Realizou pós-doutorado na área de _Modelagem e vigilância de epidemias_ nas seguintes instituições:
 - Northeastern University, NORTHEASTERN, Estados Unidos
 - Fundação Oswaldo Cruz, FIOCRUZ, Brasil.
 
