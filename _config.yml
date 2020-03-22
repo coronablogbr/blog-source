@@ -58,7 +58,7 @@ license_image_url: https://upload.wikimedia.org/wikipedia/commons/6/62/PD-icon.s
 #flattr_category: audio # available categories see https://api.flattr.com/rest/v2/categories.txt
 
 ### Disqus comments
-disqus_shortname: # Disqus will not be used unless this is set
+disqus_shortname: coronavirus-brasil-blog-e-podcast # Disqus will not be used unless this is set
 disqus_developer: 0 # 1 | 0
 
 ### Isso comments
