@@ -25,10 +25,6 @@ Você pode inserir uma vinheta creditando a edição no início e no fim do epis
 Se o seu podcast tiver algum episódio sobre o Corona Virus, nós queremos publicar ele no nosso feed!
 Abra uma issue aqui no github ou mande um pull request.
 
-## Publique o nosso podcast piloto no seu feed
-
-Intruções serão publicades em breve.
-
 ## Referências
 
 - [Sobre o GitHub Pages e Jekyll](https://help.github.com/pt/github/working-with-github-pages/about-github-pages-and-jekyll) @ github.com
