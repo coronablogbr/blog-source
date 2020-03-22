@@ -94,4 +94,5 @@ exclude:
   - docker*
   - Gemfile*
   - build-with-docker.sh
+  - deploy-from-local.sh
   # <<<
