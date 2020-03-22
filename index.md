@@ -1,5 +1,5 @@
 ---
-title: Episodes
+title: Posts e Episódios
 layout: default
 navigation: 0
 ---

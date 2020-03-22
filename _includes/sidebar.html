@@ -27,15 +27,13 @@
       "description": "{{ site['description']}}",
       "cover": "{{ site.url }}/img/logo-360x360.png",
       "feeds": [
-      {% for feed in site['episode_feed_formats'] %}
         {
           "type": "audio",
-          "format": "{{ feed }}",
-          "url": "{{ site['url']}}/episodes.{{ feed }}.rss",
+          "format": "mp3",
+          "url": "{{ site.url }}/feeds/mp3.podcasts.rss.xml",
           "directory-url-itunes": "{{ site['itunes_url']}}",
           "variant": "high"
         },
-      {% endfor %}
       ]
     }
   </script>
@@ -43,25 +41,15 @@
 
 <hr/>
 
-<h4>RSS-Feeds</h4>
+<h4>Feeds RSS</h4>
 
-<ol type="i">
-  {% for feed in site['episode_feed_formats'] %}
-    <li><a href="{{ site['url']}}/episodes.{{ feed }}.rss"><i class="fa fa-rss"></i> {{ feed }}-RSS-Feed</a></li>
-  {% endfor %}
-</ol>
-
-<h4>JSON-Feeds</h4>
-
-<ol type="i">
-  {% for jsonfeed in site['json_feed_formats'] %}
-    <li><a href="{{ site['url']}}/feed.{{ jsonfeed }}.json"><i class="fa fa-rss-square"></i> {{ jsonfeed }}-JSON-Feed</a></li>
-  {% endfor %}
-</ol>
+<ul>
+    <li><a href="{{ site['url']}}/feeds/mp3.podcast.rss.xml"><i class="fa fa-rss"></i> Feed do podcast</a></li>
+</ul>
 
 
 
-<h4>Directories</h4>
+<!-- <h4>Directories</h4>
 
 <ol type="i">
   {% if site.itunes_url %}
@@ -79,16 +67,24 @@
   {% if site.gpodder_url %}
     <li>at <a href="{{ site.gpodder_url }}"><img src="https://gpodder.net/media/gpoddernet_64.png" height="16" /> Gpodder.net</a></li>
   {% endif %}
-</ol>
+</ol> -->
 
 
-<h4>Credits</h4>
+<!--<h4>Credits</h4>
 
 <ul>
   <li>Music: <a href="http://www.bensound.com/royalty-free-music">Bensound</a></li>
+</ul>-->
+
+<h4>Créditos</h4>
+
+<ul>
+  <li>Website e feeds gerados com <a href="https://jekyll-octopod.github.io/" title="Website do projeto jekyll-octopod">jekyll-octopod</a></li>
+  <li>Hosting provido pelas páginas do GitHub</li>
+  <li>Fovicon e App Icon gerados com <a href="https://www.favicon-generator.org/">favicon-generator.org</a></li>
 </ul>
 
-<h4>License</h4>
+<h4>Licença</h4>
 
 {% if site.license_url %}
   <a rel="license" href="{{ site.license_url }}">
@@ -106,6 +102,7 @@
   <span class="pull-left">{{ site | flattr_button }}</span>
 {% endif %}
 
+<!--
 {% if site.twitter_nick %}
   <a href="https://twitter.com/{{ site.twitter_nick }}"
      class="button btn-primary btn-sm"
@@ -113,3 +110,4 @@
     <i class="fab fa-twitter"></i>Follow @{{ site.twitter_nick }}
   </a>
 {% endif %}
+-->

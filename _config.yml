@@ -1,14 +1,14 @@
-title: Corona Virus BR Podcast
+title: Coronavírus (Covid-19) Brasil Blog e Podcast
 url: https://coronablogbr.org
 
 ### download_url: is needed, if and only if audio files are hosted in a different location, it is the path of the directory where the audio files are stored
 download_url: "https://archive.org/download"
-subtitle: Static Site Podcast Publishing for Geeks
-description: Corona Virus BR Podcast
-author: Guilherme Dellagustin, Marcelo Gomes
+subtitle: Podcast de informação e notícias sobre a pandemia do coronavírus (Covid-19)
+description: Coronavírus BR Podcast
+author: Guilherme Dellagustin, Marcelo F. C. Gomes
 
 ### author_url: This is the URL of a site owned by the author (see https://jsonfeed.org/version/1)
-author_url: "http://your.fancy.hosting/"
+### author_url: "http://your.fancy.hosting/"
 
 email: dellagustin@gmail.com
 keywords: [podcast, corona, virus, covid-19]
