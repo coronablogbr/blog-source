@@ -1,5 +1,5 @@
 title: Corona Virus BR Podcast
-url: https://coronablogbr.github.io
+url: https://coronablogbr.org
 
 ### download_url: is needed, if and only if audio files are hosted in a different location, it is the path of the directory where the audio files are stored
 download_url: "https://archive.org/download"
@@ -82,3 +82,6 @@ plugins:
 
 keep_files:
   - .git
+
+exclude:
+  - docs
