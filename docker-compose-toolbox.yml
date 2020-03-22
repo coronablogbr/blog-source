@@ -4,7 +4,8 @@ services:
     image: coronablogbr/devenv
     build: .
     ports:
-      - "4000:4000"
+      - "4000:4000"   # website
+      - "35729:35729" # livereload
     volumes:
       - ./:/blog
     tty: true
