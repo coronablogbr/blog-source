@@ -79,3 +79,6 @@ plugins:
 #     - localhost
 #     - 127.0.0.1
 #     - podcast.your-domain.com
+
+keep_files:
+  - .git
