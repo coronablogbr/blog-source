@@ -2,7 +2,7 @@
 
 Esse repositório contém o código fonte do blog publicado em https://coronablogbr.github.io/.
 
-O blog usa a ferramenta [jekyll-octopod](https://jekyll-octopod.github.io/) :heart:.
+O blog foi gerado com a ferramenta [jekyll-octopod](https://jekyll-octopod.github.io/) :heart:.
 
 # Propósito
 
