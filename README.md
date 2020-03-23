@@ -1,4 +1,4 @@
-# Corona Virus (Covid-19) Brasil - Blog e Podcast
+# Coronavírus (Covid-19) Brasil - Blog e Podcast
 
 Esse repositório contém o código fonte do blog publicado em https://coronablogbr.github.io/.
 
@@ -6,7 +6,7 @@ O blog usa a ferramenta [jekyll-octopod](https://jekyll-octopod.github.io/) :hea
 
 # Propósito
 
-Salvar o máximo de vidas durante a pandemia, através da concientização e disseminação de informações.
+Salvar o máximo de vidas durante a pandemia, através da conscientização e disseminação de informações.
 
 # Contribua
 
@@ -22,7 +22,7 @@ Você pode inserir uma vinheta creditando a edição no início e no fim do epis
 
 ## Publique o seu podcast no nosso feed
 
-Se o seu podcast tiver algum episódio sobre o Corona Virus, nós queremos publicar ele no nosso feed!
+Se o seu podcast tiver algum episódio sobre o coronavírus, nós queremos publicar ele no nosso feed!
 Abra uma issue aqui no github ou mande um pull request.
 
 ## Referências
