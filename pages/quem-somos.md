@@ -19,6 +19,7 @@ Hoje é **Pesquisador em Saúde Pública** - Programa de Computação Científic
 ### Links
 
 - [Currículo Lattes](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4739761D0)
+- Sendo citado como referência no vídeo [E se o Ebola viesse para o Brasil? - **Nerdologia**](https://youtu.be/CZ0EsnuDKw4?t=80)
 
 
 ## Guilherme Dellagustin
