@@ -1,7 +1,8 @@
 ---
-title: Quem Somos
-layout: default
-permalink: quem-somos
+permalink: quemsomos
+redirect_from:
+  - /quemsomos
+
 ---
 
 # Quem Somos

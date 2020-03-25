@@ -2,10 +2,11 @@ FROM ruby:2.7.0-alpine3.11
 
 WORKDIR /blog
 
+RUN apk add --no-cache g++ gcc make musl-dev
+
 ADD Gemfile .
 ADD Gemfile.lock .
 
-RUN apk add --no-cache g++ gcc make musl-dev
 RUN bundle install
 
 ENV JEKYLL_ENV=docker

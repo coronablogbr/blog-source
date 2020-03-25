@@ -46,6 +46,8 @@ GEM
       jekyll (~> 3.8)
       jekyll-admin (~> 0.4.0)
       jekyll-bootflat (~> 0.2.6)
+    jekyll-redirect-from (0.16.0)
+      jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-seo-tag (2.6.1)
@@ -109,6 +111,7 @@ DEPENDENCIES
   jekyll (~> 3.8.3)
   jekyll-feed (~> 0.12)
   jekyll-octopod
+  jekyll-redirect-from
   minima (~> 2.5)
   tzinfo (~> 1.2)
   tzinfo-data
