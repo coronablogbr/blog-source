@@ -1,9 +1,4 @@
-#!/bin/sh
-
 # TODO - Escrever sobre pré-requisitos
-
-# Para evitar deploy sem build
-./build-with-docker.sh
 
 cd ./_site
 git checkout master
