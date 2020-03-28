@@ -4,6 +4,8 @@ Esse repositório contém o código fonte do blog publicado em https://coronablo
 
 O blog foi gerado com a ferramenta [jekyll-octopod](https://jekyll-octopod.github.io/) :heart:.
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/coronablogbr/blog-source)
+
 # Propósito
 
 Salvar o máximo de vidas durante a pandemia, através da conscientização e disseminação de informações.
