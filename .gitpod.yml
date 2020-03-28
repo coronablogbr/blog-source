@@ -1,6 +1,6 @@
 tasks:
-  - init: source gitpodinit.sh
-    command: octopod serve --config _config.yml,_config_dev_gitpod.yml
+  - init: bundle install
+    command: ./gitpodstart.sh
 ports:
   - port: 4000
     onOpen: open-preview

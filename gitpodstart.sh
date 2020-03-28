@@ -4,4 +4,4 @@ export JEKYLL_ENV=gitpod
 # Usa a URL do gitpod para resolver urls absolutas
 echo url: $(gp url 4000) > _config_dev_gitpod.yml
 
-bundle install
+octopod serve --config _config.yml,_config_dev.yml,_config_dev_gitpod.yml
