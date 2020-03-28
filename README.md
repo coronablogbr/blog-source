@@ -18,7 +18,7 @@ Uma das prioridades do nosso podcast, no que diz respeito a publicação, é min
 
 Para isso, uma edição rápida é essencial.
 
-Se você puder editar os nossos podcasts de forma voluntária, entre em contato através de dellagustin@gmail.com.
+Se você puder editar os nossos podcasts de forma voluntária, entre em contato através de coronablogbr@gmail.com.
 
 Você pode inserir uma vinheta creditando a edição no início e no fim do episódio, o que não apenas é aceito, mas encorajado por nós.
 
