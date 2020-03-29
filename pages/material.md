@@ -22,7 +22,7 @@ permalink: material
     - [TV BrasilGov](https://www.youtube.com/channel/UCjaWLFTNqLkq3ZY2BJ4NYRg)
     - [Átila Iamarino](https://www.youtube.com/channel/UCSTlOTcyUmzvhQi6F8lFi5w)
     - [A Matemática das Epidemias](https://www.youtube.com/channel/UCZFllLoI5kB4o_6w59YVzAA)
-      - Produzido pelo Professor de Epidemiologia Matemática da Fundação Getúlio Vargas, Flávio Codeço Coelho 
+      - Produzido pelo Professor de Epidemiologia Matemática da Fundação Getúlio Vargas, Flávio Codeço Coelho
   - Vídeos
     - [O Coronavírus Explicado e O Que Você Deve Fazer - Canal _Kurzgesagt – In a Nutshell_](https://youtu.be/BtN-goy9VOY)
 - Podcasts
