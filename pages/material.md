@@ -20,6 +20,9 @@ permalink: material
     - [Atualizações relativas ao coronavírus 2019 (COVID-19)](https://support.google.com/youtube/answer/9777243?p=covid19_updates&visit_id=637210774039307527-2106533733&rd=1)
   - Canais
     - [TV BrasilGov](https://www.youtube.com/channel/UCjaWLFTNqLkq3ZY2BJ4NYRg)
+      - Pronunciamentos ao vivo do _Ministério da Saúde_ saem primeiro aqui
+    - [Ministério da Saúde](https://www.youtube.com/channel/UC12zKGLhMhDeDidoctM6BrA)
+      - Após a transmissão ao vivo, pronunciamentos são publicados nesse canal 
     - [Átila Iamarino](https://www.youtube.com/channel/UCSTlOTcyUmzvhQi6F8lFi5w)
     - [A Matemática das Epidemias](https://www.youtube.com/channel/UCZFllLoI5kB4o_6w59YVzAA)
       - Produzido pelo Professor de Epidemiologia Matemática da Fundação Getúlio Vargas, Flávio Codeço Coelho
