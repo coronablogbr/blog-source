@@ -1,10 +1,10 @@
 ---
-title: Contribua
+title: Colabore
 layout: default
 permalink: contribua
 ---
 
-# Contribua
+# Colabore
 
 O _Coronavírus Brasil Blog e Podcast_ é um projeto colaborativo e de código fonte aberto (open source).
 
