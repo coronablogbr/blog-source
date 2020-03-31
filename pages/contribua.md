@@ -22,6 +22,8 @@ Se você gostaria de colaborar com o projeto, entre em contato:
 
 Veja as [issues abertas sobre melhorias no site](https://github.com/coronablogbr/blog-source/issues?q=is%3Aissue+is%3Aopen+label%3Awebsite).
 
+Instruções sobre como contribuir podem ser encontradas [aqui](contribua-website.md).
+
 ## <a id="producao-conteudo"/>Produção de Conteúdo
 
 Se você gostaria de produzir conteúdo, seja em forma de áudio ou textos para o blog, ou você tem ideia para algum tipo de conteúdo que ainda não produzimos, entre em contato conosco.
