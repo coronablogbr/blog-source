@@ -70,6 +70,7 @@ theme: jekyll-bootflat
 ### (but you will loose auto regeneration after code changes with a text editor then)
 plugins:
   - jekyll-octopod
+  - jekyll-relative-links
 #  - jekyll-admin
 
 ### Links to all domains, expect whitelisted will be rendered with rel="nofollow noopener noreferrer"

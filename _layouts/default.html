@@ -49,13 +49,13 @@
             <li {% if page.permalink == 'quem-somos' %}class="active" {% endif %}>
                 <a href="{{'quem-somos' | relative_url}}">Quem Somos</a>
             </li>
-            <li>
-                <a href="{{'contribua' | relative_url}}"><i class="fa fa-heart"></i> Contribua</a>
+            <li {% if page.permalink == 'contribua' %}class="active" {% endif %}>
+                <a href="{{'contribua' | relative_url}}"><i class="fa fa-heart"></i> Colabore</a>
             </li>
             <li>
                 <a href="https://github.com/coronablogbr/blog-source/issues/9"><i class="fa fa-share"></i> Divulgue</a>
             </li>
-            <li>
+            <li {% if page.permalink == 'material' %}class="active" {% endif %}>
                 <a href="{{'material' | relative_url}}"><i class="fa fa-book"></i> Material</a>
             </li>
           </ul>
