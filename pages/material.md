@@ -9,6 +9,7 @@ permalink: material
 - Sites e Portais
   - [Ministério da Saúde Brasileiro](https://saude.gov.br/)
     - [Painel Coronavírus](https://covid.saude.gov.br/)
+    - [Painel de leitos e insumos](https://covid-insumos.saude.gov.br/paineis/insumos/painel.php)
   - [Coronavirus COVID-19 Global Cases by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
   - [Our World in Data](https://ourworldindata.org/)
     - [Coronavírus](https://ourworldindata.org/coronavirus)
