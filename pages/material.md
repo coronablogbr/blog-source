@@ -34,13 +34,6 @@ permalink: material
   - [Quarentena](http://www.labi.ufscar.br/category/quarentena/) - podcast diário sobre a pandemia, publicado pelo _Laboratório Aberto de Interatividade_ da UFSCar
   - [Nerdcast 718 - Anatomia de um vírus](https://jovemnerd.com.br/nerdcast/anatomia-de-um-virus) com participação do Átila Iamarino
 
-# Combate às Fake News
-
-- [Portal do Ministério da Saúde](https://www.saude.gov.br/fakenews)
-  - Busca por Fake News
-  - Denúncia
-    - _Qualquer cidadão poderá enviar gratuitamente mensagens com imagens ou textos que tenha recebido nas redes sociais para confirmar se a informação procede, antes de continuar compartilhando. O número é [<i class="fab fa-whatsapp"></i> (61) 99289-4640](https://api.whatsapp.com/send?phone=5561992894640)_
-
 # Números importantes
 
 Consulte as fontes acima para obter números.
