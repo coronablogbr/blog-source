@@ -1,0 +1,126 @@
+<div class="page-header">
+  <h3>
+    {{ site.title }}
+    {% if site.subtitle %}<br/><small>{{ site.subtitle }}</small>{% endif %}
+  </h3>
+</div>
+
+<p class="text-center">
+  <img width="200px" src="{{ site.url }}/img/logo-360x360.png" alt="{{ site.title }} logo">
+</p>
+
+{% if site.description %}<p>{{ site.description }}</p>{% endif %}
+
+  <script class="podlove-subscribe-button"
+          src="/subscribe-button/javascripts/app.js"
+          data-language="{{ site.language }}"
+          data-size="medium auto"
+          data-style="filled"
+          data-json-data="podcastData"
+          data-colors="#FC6E51;green;blue">
+  </script>
+
+  <script>
+    window.podcastData = {
+      "title": "{{ site['title']}}",
+      "subtitle": "{{ site['subtitle']}}",
+      "description": "{{ site['description']}}",
+      "cover": "{{ site.url }}/img/logo-360x360.png",
+      "feeds": [
+        {
+          "type": "audio",
+          "format": "mp3",
+          "url": "{{ site.url }}/feeds/mp3.podcast.rss.xml",
+          "directory-url-itunes": "{{ site['itunes_url']}}",
+          "variant": "high"
+        },
+      ]
+    }
+  </script>
+</p>
+
+<hr/>
+
+<h4>Feeds RSS</h4>
+
+<ul>
+    <li><a href="{{ site['url']}}/feeds/mp3.podcast.rss.xml"><i class="fa fa-rss"></i> Feed do podcast</a></li>
+</ul>
+
+<p>Ouça de forma fácil no computador com o <a href="https://chrome.google.com/webstore/detail/podstation-podcast-player/bpcagekijmfcocgjlnnhpdogbplajjfn">podStation</a></p>
+
+<h4>Disponível em</h4>
+
+<ul>
+    <li><a href="https://open.spotify.com/show/7w0HRJ6ZxN5J2IEoXOeLFq"><i class="fab fa-spotify"></i> Spotify</a></li>
+    <li><a href="https://podcasts.apple.com/pt/podcast/coronav%C3%ADrus-covid-19-brasil-blog-e-podcast/id1504000394"><i class="fab fa-itunes"></i> iTunes</a></li></li>
+    <li><a href="https://podcasts.google.com/?feed=aHR0cHM6Ly9jb3JvbmFibG9nYnIub3JnL2ZlZWRzL21wMy5wb2RjYXN0LnJzcy54bWw"><i class="fab fa-google"></i> Google Podcasts</a></li></li>
+    <li><a href="https://www.youtube.com/channel/UCWJnAWmWeUonbpnzmhV_Aqw"><i class="fab fa-youtube"></i> Youtube</a></li></li>
+    <li><a href="https://castbox.fm/channel/Coronav%C3%ADrus-(Covid-19)-Brasil-Blog-e-Podcast-id2711402"><i class="fa fa-volume-up"></i> Castbox</a></li>
+    <li><a href="https://deezer.com/show/975732"><i class="fa fa-volume-up"></i> Deezer</a></li>
+    <li><a href="https://player.fm/series/coronavirus-covid-19-brasil-blog-e-podcast"><i class="fa fa-volume-up"></i> PlayerFM</a></li>
+    <li><a href="https://pca.st/777izfpu"><i class="fa fa-volume-up"></i> Pocket Casts</a></li>
+    <li><a href="https://www.stitcher.com/podcast/coronavirus-covid19-brasil-blog-e-podcast"><i class="fa fa-volume-up"></i> Stitcher</a></li>
+    <li><a href="http://tun.in/pjNmH"><i class="fa fa-volume-up"></i> TuneIn</a></li>
+</ul>
+
+<h4>Ações</h4>
+
+<ul>
+    <li><a href="/combate-fakenews">Combate às Notícias Falsas (Fake News)</a></li>
+    <li><a href="/denuncie-violencia">Denúncias de violência doméstica</a></li>
+</ul>
+
+<h4>Contato e Redes Sociais</h4>
+
+<p>Se você encontrar qualquer informação incorreta, por favor entre em contato.</p>
+
+{% include contacts_list.html %}
+
+<h4>Código Fonte</h4>
+
+<ul>
+    <li><a href="https://github.com/coronablogbr/blog-source"><i class="fab fa-github"></i> coronablogbr/blog-source</a></li>
+</ul>
+
+<h4>Fóruns de Discussão</h4>
+
+<ul>
+    <li><a href="https://www.reddit.com/r/coronabr/"><i class="fab fa-reddit"></i> reddit.com/r/coronabr/</a></li>
+</ul>
+
+<h4>Créditos</h4>
+
+<ul>
+  <li>Website e feeds gerados com <a href="https://jekyll-octopod.github.io/" title="Website do projeto jekyll-octopod">jekyll-octopod</a></li>
+  <li>Hosting provido pelas páginas do GitHub</li>
+  <li>Favicon e App Icon gerados com <a href="https://www.favicon-generator.org/">favicon-generator.org</a></li>
+</ul>
+
+<h4>Licença</h4>
+
+{% if site.license_url %}
+  <a rel="license" href="{{ site.license_url }}">
+    {% if site.license_image_url %}
+      <img alt="Creative Commons License" style="border-width:0" height="50px" width="50px" src="{{ site.license_image_url }}" />
+    {% else %}
+      {{ site.license }}
+    {% endif %}
+  </a>
+{% endif %}
+
+<hr/>
+
+{% if site.flattr_uid %}
+  <span class="pull-left">{{ site | flattr_button }}</span>
+{% endif %}
+
+<!--
+{% if site.twitter_nick %}
+  <a href="https://twitter.com/{{ site.twitter_nick }}"
+     class="button btn-primary btn-sm"
+     data-show-count="false">
+    <i class="fab fa-twitter"></i>Follow @{{ site.twitter_nick }}
+  </a>
+{% endif %}
+-->
