@@ -3,7 +3,7 @@
 <head>
   <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Coronavírus (Covid-19) Brasil Blog e Podcast - Podcast de informação e notícias sobre a pandemia do coronavírus (Covid-19)</title>
+  <title>Coronavírus (Covid-19) Brasil Blog e Podcast - Como contribuir com o site</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <meta name="description" content="Coronavírus BR Podcast
@@ -76,26 +76,65 @@ var disqus_shortname = 'coronavirus-brasil-blog-e-podcast';
       <div class="row ">
         <div class="col-sm-8">
           <div class="content">
-            <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+            <h1 id="como-contribuir-com-o-site">Como contribuir com o site</h1>
 
-<div class="container">
-  <h1>404</h1>
+<p>Para quem quer contribuir com o site, segue um guia para desenvolvedores.</p>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<p>Se você está procurando issues para contribuir, veja <a href="https://github.com/coronablogbr/blog-source/issues?q=is%3Aissue+is%3Aopen+label%3Awebsite">aqui</a>.</p>
+
+<h2 id="tecnologia">Tecnologia</h2>
+
+<p>O site usa o gerador de websites chamado <a href="https://jekyllrb.com/">Jekyll</a> em conjunto com o gerador de websites para podcasts chamado <a href="https://jekyll-octopod.github.io/">jekyll-octopod</a>.</p>
+
+<h2 id="pré-requisitos">Pré-requisitos</h2>
+
+<p>Independente do ambiente de desenvilvimento, você irá precisar de usuário no site github.com, onde o código fonte é mantido.</p>
+
+<p>Você também irá precisar conhecer como usar o sistema de gerenciamento de código fonte <a href="https://git-scm.com/">git</a>.</p>
+
+<p>Em todos os casos, caso você irá precisar fazer um fork do repositório https://github.com/coronablogbr/blog-source, e saber como enviar pull-requests.</p>
+
+<p>Este guia pode ajudar aos iniciantes: <a href="https://github.com/firstcontributions/first-contributions/blob/master/translations/README.pt_br.md">Primeiras Contribuições</a></p>
+
+<h2 id="ambiente-de-desenvolvimento">Ambiente de desenvolvimento</h2>
+
+<p>Montamos alguns ambientes de desenvolvimento para facilitar as contribuições ao website.</p>
+
+<h3 id="com-gitpod">Com gitpod</h3>
+
+<p>Gitpod é um ambiente de desenvilvimento online muito parecido com o Visual Studio Code. 
+Depois de criar um fork do repositório, abra a seguinte url no seu browser:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://gitpod.io/#&lt;url do fork&gt;
+</code></pre></div></div>
+
+<p>exemplo: <code class="highlighter-rouge">https://gitpod.io/#https://github.com/dellagustin/blog-source</code></p>
+
+<h3 id="com-docker-desktop">Com Docker Desktop</h3>
+
+<p>Se você tiver o <a href="https://www.docker.com/products/docker-desktop">Docker Desktop</a> instalado no seu computador, você pode rodar o ambiente de desenvolvimento com o comando:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker-compose up
+</code></pre></div></div>
+
+<h3 id="com-docker-toolbox">Com Docker Toolbox</h3>
+
+<p>Para quem não pode usar o Docker Desktop (exemplo, windows 10 home), é possível usar o <a href="https://docs.docker.com/toolbox/overview/">Docker Toolbox</a>.</p>
+
+<p>Para rodar o ambiente de desenvolvimento com o Docker Toolbox, use o seguinte commando (funciona no <a href="https://gitforwindows.org/">gitbash</a>):</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./site-serve-with-docker-toolbox.sh
+</code></pre></div></div>
+
+<h2 id="estrutura-de-arquivos">Estrutura de arquivos</h2>
+
+<ul>
+  <li><code class="highlighter-rouge">_includes</code>
+    <ul>
+      <li>Barra lateral - <code class="highlighter-rouge">_sidebar.html</code></li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">_posts</code> - posts e episódios do podcast</li>
+  <li><code class="highlighter-rouge">pages</code> - páginas usadas no site</li>
+</ul>
 
           </div>
         </div>

@@ -1,5 +1,442 @@
----
-layout: feed
-format: mp3
----
-{{ content }}
+<?xml version="1.0"
+      encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:bitlove="http://bitlove.org"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:psc="http://podlove.org/simple-chapters"
+     version="2.0">
+
+  <channel>
+    <title>Coronavírus (Covid-19) Brasil Blog e Podcast</title>
+    <link>https://coronablogbr.org</link>
+    <atom:link href="https://coronablogbr.org/feeds/mp3.podcast.rss.xml" rel="self" type="application/rss+xml" title="mp3 Episode RSS-Feed"/>
+
+    
+    <description>Coronavírus BR Podcast
+</description>
+    <lastBuildDate>Sat, 04 Apr 2020 17:50:49 +0000</lastBuildDate>
+    <language>pt-BR</language>
+    <generator>Jekyll-Octopod 0.9.12</generator>
+
+    <itunes:summary>Coronavírus BR Podcast
+</itunes:summary>
+    <itunes:author>Guilherme Dellagustin, Marcelo F. C. Gomes</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="https://coronablogbr.org/img/logo-itunes.jpg" />
+    <itunes:owner>
+      <itunes:name>Guilherme Dellagustin, Marcelo F. C. Gomes</itunes:name>
+      <itunes:email>dellagustin@gmail.com</itunes:email>
+    </itunes:owner>
+    <managingEditor>dellagustin@gmail.com (Guilherme Dellagustin, Marcelo F. C. Gomes)</managingEditor>
+    <copyright>Domínio Público</copyright>
+    <itunes:subtitle>Podcast de informação e notícias sobre a pandemia do coronavírus (Covid-19)</itunes:subtitle>
+    <itunes:keywords>podcast, corona, virus, covid-19</itunes:keywords>
+    <image>
+      <title>Coronavírus (Covid-19) Brasil Blog e Podcast</title>
+      <url>https://coronablogbr.org/img/logo-itunes.jpg</url>
+      <link>https://coronablogbr.org</link>
+    </image>
+    
+    <itunes:category text="Technology" />
+    
+    <itunes:category text="Health" />
+    
+    <itunes:category text="Science" />
+    
+    
+    
+      
+    
+      
+    
+      
+          <item>
+            <title>Episódio 3 - Internações por SRAG e projeções do Imperial College</title>
+            <link>https://coronablogbr.org/2020/03/30/episodio-003.html</link>
+            <atom:link rel="http://podlove.org/deep-link" href="https://coronablogbr.org/players/episodio-003"/>
+            <comments>https://coronablogbr.org/2020/03/30/episodio-003.html#disqus_thread</comments>
+            <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
+            
+            <guid isPermaLink="false">episodio-003</guid>
+            <description><![CDATA[
+
+<p>Nesse episódio Guilherme Dellagustin e Marcelo F. C. Gomes discutem sobre a alta abrupta nos casos de internação por Síndrome Respiratória Aguda Grave (SRAG) a partir das semanas epidemiológicas 11 e 12.</p>
+
+<p>Discutem também sobre as projeções mais recentes do Imperial College para o Brasil, e comentam informações transmitidas na coletiva de imprensa do Ministério da Saúde em 28 de Março.</p>
+
+<h2 id="notícias-comentadas">Notícias comentadas</h2>
+
+<ul>
+  <li>27-03-2020 - <a href="https://saude.estadao.com.br/noticias/geral,estudo-preve-ao-menos-44-mil-mortes-de-covid-19-no-brasil-isolar-so-idosos-eleva-n-para-529-mil,70003251026">Estadão - Estudo prevê ao menos 44 mil mortes de covid-19 no Brasil; isolar só idosos eleva nº para 529 mil</a>
+    <ul>
+      <li>Matéria baseada nos resultados do estudo do Imperial College.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="conteúdo-recomendado">Conteúdo Recomendado</h2>
+
+<ul>
+  <li><a href="https://xadrezverbal.com/category/audio/podcast-do-xadrez-verbal/">Podcast Xadrez Verbal</a>
+    <ul>
+      <li>Episódios especiais com notícias internacionais sobre o coronavírus, com <a href="https://twitter.com/oatila">Átila Iamarino</a></li>
+    </ul>
+  </li>
+  <li><a href="http://www.labi.ufscar.br/category/quarentena/">Podcast Quarentena</a> - podcast diário sobre a pandemia, publicado pelo <em>Laboratório Aberto de Interatividade</em> da UFSCar</li>
+  <li>Veja também: <a href="https://coronablogbr.org/material">coronablogbr.org/material</a></li>
+</ul>
+
+<h2 id="participantes">Participantes</h2>
+
+<p>Mais informações sobre os participantes em: <a href="https://coronablogbr.org/quem-somos">coronablogbr.org/quem-somos</a></p>
+
+<ul>
+  <li>Guilherme Dellagustin - Físico pela UFRGS - Desenvolvedor de Software na SAP SE, Alemanha</li>
+  <li>Marcelo F. C. Gomes - Doutor em Física pela UFRGS - <strong>Pesquisador em Saúde Pública</strong> - Programa de Computação Científica (PROCC) - Fundação Oswaldo Cruz (FIOCRUZ), Rio de Janeiro</li>
+</ul>
+
+<h2 id="produção">Produção</h2>
+
+<ul>
+  <li>Pauta - Rafaela Debastiani, Guilherme Dellagustin, Marcelo F. C. Gomes</li>
+  <li>Edição - Guilherme Dellagustin</li>
+</ul>
+
+<h2 id="referências">Referências</h2>
+
+<ul>
+  <li><a href="https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-Global-Impact-26-03-2020.pdf">Imperial-College-COVID19-Global-Impact-26-03-2020.pdf</a>
+    <ul>
+      <li><a href="https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-Global-unmitigated-mitigated-suppression-scenarios.xlsx">Imperial-College-COVID19-Global-unmitigated-mitigated-suppression-scenarios.xlsx</a></li>
+    </ul>
+  </li>
+  <li><a href="https://youtu.be/j0LksyK0tDI">28-03-2020 - #AoVivo: Ministério da Saúde atualiza dados sobre a #Covid-19</a>
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=j0LksyK0tDI&amp;lc=UgzCP9wXhqpnzMTtVfd4AaABAg">Comentário (nosso) com os tempos de cada assunto no vídeo</a></li>
+    </ul>
+  </li>
+  <li><a href="https://agenciabrasil.ebc.com.br/geral/noticia/2019-12/registros-de-obitos-aumentam-21-nos-ultimos-dez-anos-aponta-ibge">04-12-2019 - Agência Brasil - EBC - Registros de óbitos aumentam 21% nos últimos dez anos, aponta IBGE</a>
+    <ul>
+      <li><em>“O número de mortes ocorridos e registrados no Brasil, nos últimos dez anos, aumentou 21,2%, passando de 1.055.672, em 2008, para 1.279.948, em 2018. Os dados foram divulgados, hoje (4), na pesquisa Estatísticas do Registro Civil 2018, do Instituto Brasileiro de Geografia e Estatística (IBGE).”</em></li>
+    </ul>
+  </li>
+</ul>
+
+]]></description>
+            <content:encoded><![CDATA[
+
+<p>Nesse episódio Guilherme Dellagustin e Marcelo F. C. Gomes discutem sobre a alta abrupta nos casos de internação por Síndrome Respiratória Aguda Grave (SRAG) a partir das semanas epidemiológicas 11 e 12.</p>
+
+<p>Discutem também sobre as projeções mais recentes do Imperial College para o Brasil, e comentam informações transmitidas na coletiva de imprensa do Ministério da Saúde em 28 de Março.</p>
+
+<h2 id="notícias-comentadas">Notícias comentadas</h2>
+
+<ul>
+  <li>27-03-2020 - <a href="https://saude.estadao.com.br/noticias/geral,estudo-preve-ao-menos-44-mil-mortes-de-covid-19-no-brasil-isolar-so-idosos-eleva-n-para-529-mil,70003251026">Estadão - Estudo prevê ao menos 44 mil mortes de covid-19 no Brasil; isolar só idosos eleva nº para 529 mil</a>
+    <ul>
+      <li>Matéria baseada nos resultados do estudo do Imperial College.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="conteúdo-recomendado">Conteúdo Recomendado</h2>
+
+<ul>
+  <li><a href="https://xadrezverbal.com/category/audio/podcast-do-xadrez-verbal/">Podcast Xadrez Verbal</a>
+    <ul>
+      <li>Episódios especiais com notícias internacionais sobre o coronavírus, com <a href="https://twitter.com/oatila">Átila Iamarino</a></li>
+    </ul>
+  </li>
+  <li><a href="http://www.labi.ufscar.br/category/quarentena/">Podcast Quarentena</a> - podcast diário sobre a pandemia, publicado pelo <em>Laboratório Aberto de Interatividade</em> da UFSCar</li>
+  <li>Veja também: <a href="https://coronablogbr.org/material">coronablogbr.org/material</a></li>
+</ul>
+
+<h2 id="participantes">Participantes</h2>
+
+<p>Mais informações sobre os participantes em: <a href="https://coronablogbr.org/quem-somos">coronablogbr.org/quem-somos</a></p>
+
+<ul>
+  <li>Guilherme Dellagustin - Físico pela UFRGS - Desenvolvedor de Software na SAP SE, Alemanha</li>
+  <li>Marcelo F. C. Gomes - Doutor em Física pela UFRGS - <strong>Pesquisador em Saúde Pública</strong> - Programa de Computação Científica (PROCC) - Fundação Oswaldo Cruz (FIOCRUZ), Rio de Janeiro</li>
+</ul>
+
+<h2 id="produção">Produção</h2>
+
+<ul>
+  <li>Pauta - Rafaela Debastiani, Guilherme Dellagustin, Marcelo F. C. Gomes</li>
+  <li>Edição - Guilherme Dellagustin</li>
+</ul>
+
+<h2 id="referências">Referências</h2>
+
+<ul>
+  <li><a href="https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-Global-Impact-26-03-2020.pdf">Imperial-College-COVID19-Global-Impact-26-03-2020.pdf</a>
+    <ul>
+      <li><a href="https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-Global-unmitigated-mitigated-suppression-scenarios.xlsx">Imperial-College-COVID19-Global-unmitigated-mitigated-suppression-scenarios.xlsx</a></li>
+    </ul>
+  </li>
+  <li><a href="https://youtu.be/j0LksyK0tDI">28-03-2020 - #AoVivo: Ministério da Saúde atualiza dados sobre a #Covid-19</a>
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=j0LksyK0tDI&amp;lc=UgzCP9wXhqpnzMTtVfd4AaABAg">Comentário (nosso) com os tempos de cada assunto no vídeo</a></li>
+    </ul>
+  </li>
+  <li><a href="https://agenciabrasil.ebc.com.br/geral/noticia/2019-12/registros-de-obitos-aumentam-21-nos-ultimos-dez-anos-aponta-ibge">04-12-2019 - Agência Brasil - EBC - Registros de óbitos aumentam 21% nos últimos dez anos, aponta IBGE</a>
+    <ul>
+      <li><em>“O número de mortes ocorridos e registrados no Brasil, nos últimos dez anos, aumentou 21,2%, passando de 1.055.672, em 2008, para 1.279.948, em 2018. Os dados foram divulgados, hoje (4), na pesquisa Estatísticas do Registro Civil 2018, do Instituto Brasileiro de Geografia e Estatística (IBGE).”</em></li>
+    </ul>
+  </li>
+</ul>
+
+]]></content:encoded>
+            
+            <enclosure url="https://archive.org/download/coronablogbr-episodio-003/coronablogbr-episodio-003.mp3" length="16635628" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author>Guilherme Dellagustin e Marcelo F. C. Gomes</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>53:47</itunes:duration>
+            
+            
+            
+            
+          </item>
+      
+    
+      
+          <item>
+            <title>Episódio 2 - Coletiva de imprensa</title>
+            <link>https://coronablogbr.org/2020/03/25/episodio-002.html</link>
+            <atom:link rel="http://podlove.org/deep-link" href="https://coronablogbr.org/players/episodio-002"/>
+            <comments>https://coronablogbr.org/2020/03/25/episodio-002.html#disqus_thread</comments>
+            <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
+            
+            <guid isPermaLink="false">episodio-002</guid>
+            <description><![CDATA[
+
+<p>Nesse episódio Guilherme Dellagustin e Marcelo F. C. Gomes comentam notícias recentes, informações passadas na coletiva de imprensa do ministério da saúde em 24-03-2020 e recomendam alguns projetos relacionados tema.</p>
+
+<h2 id="notícias-comentadas">Notícias comentadas</h2>
+
+<ul>
+  <li><a href="https://youtu.be/vJycNmK7KPk">Reino unido aplica restrições mais severas</a></li>
+  <li><a href="https://news.un.org/en/story/2020/03/1060082">Japão cancela oficialmente a olimpiadas</a></li>
+  <li><a href="http://bannerhealth.mediaroom.com/chloroquinephosphate">Homen de cerca de 60 anos morre devido a efeitos adversos por automedicação de difosfato de cloroquina</a></li>
+</ul>
+
+<h2 id="projetos-recomendados">Projetos recomendados</h2>
+
+<ul>
+  <li><a href="https://gitlab.procc.fiocruz.br/mave/repo">Relatórios do Grupo de Métodos Analíticos em Vigilância Epidemiológica MAVE (PROCC/Fiocruz e EMap/FGV)</a></li>
+  <li><a href="https://covid-19-risk.github.io/map/brazil/pt">Projeção de risco via modelo de propagação com contato por faixa etária e mobilidade intermunicipal</a></li>
+  <li><a href="https://coronabr.github.io/reunioes-online">Reuniões online - Corona Vírus (COVID-19) - Página com instruções</a>
+    <ul>
+      <li><em>O objetivo é ajudar aos mais leigos, responsáveis por igrejas e/ou pessoas, a manterem suas instituições mesmo com restrições de ajuntamento. É de responsabilidade de todos cuidarem para que não tenhamos um surto e assim um menor impacto.</em></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="conteúdo-recomendado">Conteúdo Recomendado</h2>
+
+<ul>
+  <li><a href="https://youtu.be/HXmt0j1gtDU">Live Coronavírus de 22/03 - Atila Iamarino - Por que é importante ficar em casa?</a></li>
+  <li><a href="https://youtu.be/BtN-goy9VOY">O Coronavírus Explicado e O Que Você Deve Fazer</a> - Canal do youtube de divulgação científica <em>Kurzgesagt – In a Nutshell</em></li>
+  <li>Canal do youtube <a href="https://www.youtube.com/channel/UCZFllLoI5kB4o_6w59YVzAA">A Matemática das Epidemias</a> - Pra quem tem conhecimento de cálculo</li>
+</ul>
+
+<h2 id="participantes">Participantes</h2>
+
+<ul>
+  <li>Guilherme Dellagustin - Físico pela UFRGS - Desenvolvedor de Software na SAP SE, Alemanha</li>
+  <li>Marcelo F. C. Gomes - Doutor em Física pela UFRGS - <strong>Pesquisador em Saúde Pública</strong> - Programa de Computação Científica (PROCC) - Fundação Oswaldo Cruz (FIOCRUZ), Rio de Janeiro</li>
+</ul>
+
+<h2 id="produção">Produção</h2>
+
+<ul>
+  <li>Pauta - Rafaela Debastiani, Guilherme Dellagustin, Marcelo F. C. Gomes</li>
+  <li>Edição - Guilherme Ferrari (do podcast <a href="https://fliperamadeboteco.com/">Fliperam de Boteco</a>)</li>
+</ul>
+
+<h2 id="referências">Referências</h2>
+
+<ul>
+  <li><a href="https://youtu.be/HOfMW-K105k">Coletiva de Imprensa do Ministério da Saúde - 24-03-2020</a></li>
+  <li><a href="https://www.medrxiv.org/content/10.1101/2020.03.19.20039131v1">Assessing the potential impacts of COVID-19 in Brasil: Mobility, Morbidity and Impact to the Health System</a></li>
+  <li>Hidroxicloroquina
+    <ul>
+      <li><a href="https://saude.estadao.com.br/noticias/geral,anvisa-torna-controlados-remedios-com-cloroquina-e-hidroxicloroquina,70003242686">Anvisa torna ‘controlados’ remédios com cloroquina e hidroxicloroquina</a></li>
+      <li><a href="https://www.reumatologia.org.br/orientacoes-ao-paciente/o-tratamento-do-lupus-eritematoso-sistemico/">O tratamento do lupus eritematoso sistemico</a></li>
+      <li><a href="http://portal.anvisa.gov.br/noticias?p_p_id=101_INSTANCE_FXrpx9qY7FbU&amp;p_p_col_id=column-2&amp;p_p_col_pos=1&amp;p_p_col_count=2&amp;_101_INSTANCE_FXrpx9qY7FbU_groupId=219201&amp;_101_INSTANCE_FXrpx9qY7FbU_urlTitle=hidroxicloroquina-vira-produto-controlado&amp;_101_INSTANCE_FXrpx9qY7FbU_struts_action=%2Fasset_publisher%2Fview_content&amp;_101_INSTANCE_FXrpx9qY7FbU_assetEntryId=5818322&amp;_101_INSTANCE_FXrpx9qY7FbU_type=content">Portal da anvisa</a>
+        <ul>
+          <li><a href="http://portal.anvisa.gov.br/documents/219201/4340788/Perguntas+e+respostas_COVID+19+Ascom.pdf/f2819214-f3f1-45db-9a42-de858593d098">Perguntas e respostas: medicamentos para o combate à COVID-19</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+]]></description>
+            <content:encoded><![CDATA[
+
+<p>Nesse episódio Guilherme Dellagustin e Marcelo F. C. Gomes comentam notícias recentes, informações passadas na coletiva de imprensa do ministério da saúde em 24-03-2020 e recomendam alguns projetos relacionados tema.</p>
+
+<h2 id="notícias-comentadas">Notícias comentadas</h2>
+
+<ul>
+  <li><a href="https://youtu.be/vJycNmK7KPk">Reino unido aplica restrições mais severas</a></li>
+  <li><a href="https://news.un.org/en/story/2020/03/1060082">Japão cancela oficialmente a olimpiadas</a></li>
+  <li><a href="http://bannerhealth.mediaroom.com/chloroquinephosphate">Homen de cerca de 60 anos morre devido a efeitos adversos por automedicação de difosfato de cloroquina</a></li>
+</ul>
+
+<h2 id="projetos-recomendados">Projetos recomendados</h2>
+
+<ul>
+  <li><a href="https://gitlab.procc.fiocruz.br/mave/repo">Relatórios do Grupo de Métodos Analíticos em Vigilância Epidemiológica MAVE (PROCC/Fiocruz e EMap/FGV)</a></li>
+  <li><a href="https://covid-19-risk.github.io/map/brazil/pt">Projeção de risco via modelo de propagação com contato por faixa etária e mobilidade intermunicipal</a></li>
+  <li><a href="https://coronabr.github.io/reunioes-online">Reuniões online - Corona Vírus (COVID-19) - Página com instruções</a>
+    <ul>
+      <li><em>O objetivo é ajudar aos mais leigos, responsáveis por igrejas e/ou pessoas, a manterem suas instituições mesmo com restrições de ajuntamento. É de responsabilidade de todos cuidarem para que não tenhamos um surto e assim um menor impacto.</em></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="conteúdo-recomendado">Conteúdo Recomendado</h2>
+
+<ul>
+  <li><a href="https://youtu.be/HXmt0j1gtDU">Live Coronavírus de 22/03 - Atila Iamarino - Por que é importante ficar em casa?</a></li>
+  <li><a href="https://youtu.be/BtN-goy9VOY">O Coronavírus Explicado e O Que Você Deve Fazer</a> - Canal do youtube de divulgação científica <em>Kurzgesagt – In a Nutshell</em></li>
+  <li>Canal do youtube <a href="https://www.youtube.com/channel/UCZFllLoI5kB4o_6w59YVzAA">A Matemática das Epidemias</a> - Pra quem tem conhecimento de cálculo</li>
+</ul>
+
+<h2 id="participantes">Participantes</h2>
+
+<ul>
+  <li>Guilherme Dellagustin - Físico pela UFRGS - Desenvolvedor de Software na SAP SE, Alemanha</li>
+  <li>Marcelo F. C. Gomes - Doutor em Física pela UFRGS - <strong>Pesquisador em Saúde Pública</strong> - Programa de Computação Científica (PROCC) - Fundação Oswaldo Cruz (FIOCRUZ), Rio de Janeiro</li>
+</ul>
+
+<h2 id="produção">Produção</h2>
+
+<ul>
+  <li>Pauta - Rafaela Debastiani, Guilherme Dellagustin, Marcelo F. C. Gomes</li>
+  <li>Edição - Guilherme Ferrari (do podcast <a href="https://fliperamadeboteco.com/">Fliperam de Boteco</a>)</li>
+</ul>
+
+<h2 id="referências">Referências</h2>
+
+<ul>
+  <li><a href="https://youtu.be/HOfMW-K105k">Coletiva de Imprensa do Ministério da Saúde - 24-03-2020</a></li>
+  <li><a href="https://www.medrxiv.org/content/10.1101/2020.03.19.20039131v1">Assessing the potential impacts of COVID-19 in Brasil: Mobility, Morbidity and Impact to the Health System</a></li>
+  <li>Hidroxicloroquina
+    <ul>
+      <li><a href="https://saude.estadao.com.br/noticias/geral,anvisa-torna-controlados-remedios-com-cloroquina-e-hidroxicloroquina,70003242686">Anvisa torna ‘controlados’ remédios com cloroquina e hidroxicloroquina</a></li>
+      <li><a href="https://www.reumatologia.org.br/orientacoes-ao-paciente/o-tratamento-do-lupus-eritematoso-sistemico/">O tratamento do lupus eritematoso sistemico</a></li>
+      <li><a href="http://portal.anvisa.gov.br/noticias?p_p_id=101_INSTANCE_FXrpx9qY7FbU&amp;p_p_col_id=column-2&amp;p_p_col_pos=1&amp;p_p_col_count=2&amp;_101_INSTANCE_FXrpx9qY7FbU_groupId=219201&amp;_101_INSTANCE_FXrpx9qY7FbU_urlTitle=hidroxicloroquina-vira-produto-controlado&amp;_101_INSTANCE_FXrpx9qY7FbU_struts_action=%2Fasset_publisher%2Fview_content&amp;_101_INSTANCE_FXrpx9qY7FbU_assetEntryId=5818322&amp;_101_INSTANCE_FXrpx9qY7FbU_type=content">Portal da anvisa</a>
+        <ul>
+          <li><a href="http://portal.anvisa.gov.br/documents/219201/4340788/Perguntas+e+respostas_COVID+19+Ascom.pdf/f2819214-f3f1-45db-9a42-de858593d098">Perguntas e respostas: medicamentos para o combate à COVID-19</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+]]></content:encoded>
+            
+            <enclosure url="https://archive.org/download/coronablobr-episodio-002/coronablobr-episodio-002_v2.mp3" length="46432734" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author>Guilherme Dellagustin e Marcelo F. C. Gomes</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>48:10</itunes:duration>
+            
+            
+            
+            
+          </item>
+      
+    
+      
+          <item>
+            <title>Episódio 1 - Piloto</title>
+            <link>https://coronablogbr.org/2020/03/22/episodio-001.html</link>
+            <atom:link rel="http://podlove.org/deep-link" href="https://coronablogbr.org/players/episodio-001"/>
+            <comments>https://coronablogbr.org/2020/03/22/episodio-001.html#disqus_thread</comments>
+            <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
+            
+            <guid isPermaLink="false">https://coronablogbr.org/2020/03/22/episodio-001.html</guid>
+            <description><![CDATA[
+
+<h2 id="assuntos">Assuntos</h2>
+
+<p>Nesse episódio Guilherme Dellagustin e Marcelo F C Gomes explicam o projeto <em>Coronavírus Brasil Podcast</em>, discutem sobre a origem e as características do vírus e da pandemia.</p>
+
+<p>Discutem também o que ocorreu até agora, o impacto que vírus pode causar no sistema de saúde e sobre a prevenção.</p>
+
+<h2 id="participantes">Participantes</h2>
+
+<ul>
+  <li>Guilherme Dellagustin - Físico pela UFRGS - Desenvolvedor de Software na SAP SE, Alemanha</li>
+  <li>Marcelo F. C. Gomes - Doutor em Física pela UFRGS - <strong>Pesquisador em Saúde Pública</strong> - Programa de Computação Científica (PROCC) - Fundação Oswaldo Cruz (FIOCRUZ), Rio de Janeiro</li>
+</ul>
+
+<h2 id="produção">Produção</h2>
+
+<ul>
+  <li>Pauta - Rafaela Debastiani</li>
+  <li>Edição - Guilherme Dellagustin</li>
+</ul>
+
+<h2 id="links-e-referências">Links e Referências</h2>
+
+<ul>
+  <li><a href="https://youtu.be/zF2pXXJIAGM">Live Coronavírus de 20/03 - Atila Iamarino</a></li>
+  <li><a href="https://ourworldindata.org/coronavirus">Our World in Data</a></li>
+</ul>
+]]></description>
+            <content:encoded><![CDATA[
+
+<h2 id="assuntos">Assuntos</h2>
+
+<p>Nesse episódio Guilherme Dellagustin e Marcelo F C Gomes explicam o projeto <em>Coronavírus Brasil Podcast</em>, discutem sobre a origem e as características do vírus e da pandemia.</p>
+
+<p>Discutem também o que ocorreu até agora, o impacto que vírus pode causar no sistema de saúde e sobre a prevenção.</p>
+
+<h2 id="participantes">Participantes</h2>
+
+<ul>
+  <li>Guilherme Dellagustin - Físico pela UFRGS - Desenvolvedor de Software na SAP SE, Alemanha</li>
+  <li>Marcelo F. C. Gomes - Doutor em Física pela UFRGS - <strong>Pesquisador em Saúde Pública</strong> - Programa de Computação Científica (PROCC) - Fundação Oswaldo Cruz (FIOCRUZ), Rio de Janeiro</li>
+</ul>
+
+<h2 id="produção">Produção</h2>
+
+<ul>
+  <li>Pauta - Rafaela Debastiani</li>
+  <li>Edição - Guilherme Dellagustin</li>
+</ul>
+
+<h2 id="links-e-referências">Links e Referências</h2>
+
+<ul>
+  <li><a href="https://youtu.be/zF2pXXJIAGM">Live Coronavírus de 20/03 - Atila Iamarino</a></li>
+  <li><a href="https://ourworldindata.org/coronavirus">Our World in Data</a></li>
+</ul>
+]]></content:encoded>
+            
+            <enclosure url="https://archive.org/download/coronavirusbr-episodio001/coronavirus-br-ep-001.mp3" length="33190253" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author>Guilherme Dellagustin e Marcelo F. C. Gomes</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>1:28:53</itunes:duration>
+            
+            
+            
+            
+          </item>
+      
+    
+  </channel>
+</rss>
