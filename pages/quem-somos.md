@@ -14,7 +14,7 @@ Realizou pós-doutorado na área de _Modelagem e vigilância de epidemias_ nas s
 - Northeastern University, NORTHEASTERN, Estados Unidos
 - Fundação Oswaldo Cruz, FIOCRUZ, Brasil.
 
-Hoje é **Pesquisador em Saúde Pública** - Programa de Computação Científica (PROCC) - Fundação Oswaldo Cruz (FIOCRUZ), Rio de Janeiro
+Hoje é **Pesquisador em Saúde Pública** - [Programa de Computação Científica (PROCC)](http://www.procc.fiocruz.br/oprocc) - Fundação Oswaldo Cruz (FIOCRUZ), Rio de Janeiro
 
 ### Links
 
